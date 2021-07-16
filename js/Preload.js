@@ -6,7 +6,7 @@ class Preload extends Phaser.Scene {
     }
 
     create() {
-        this.textures.addBase64("sprGame", sprGame);
+        this.textures.addBase64("sprGame", sprGames);
         nLoaded++;
 
         if (nLoaded >= nAssets) {
@@ -14,6 +14,7 @@ class Preload extends Phaser.Scene {
             actualCreate();
         }
     };
+    
     createGameObjects() {
         this.scene.start("Level1");
     }
