@@ -4,7 +4,7 @@ let game;
 
 let config = {
     type: /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? Phaser.CANVAS : Phaser.AUTO,
-    backgroundColor: "black",
+    backgroundColor: "blue",
     width: WINDOW_WIDTH,
     height: WINDOW_HEIGHT,
     pixelArt: true,
