@@ -1,0 +1,9 @@
+body{
+    display: relative;
+    border: 1px solid black;
+}
+.haha{
+    display: absolute;
+    left: 50px;
+    color: red;
+}
